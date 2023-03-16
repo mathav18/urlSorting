@@ -1,0 +1,229 @@
+body,html{
+    width:100%;
+    height:100%;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+::-webkit-scrollbar{
+    width:0px;
+}
+#whole{
+    width: 100%;
+    height:100%;
+  overflow: scroll;
+   background-color: #F2F2F2;
+}
+#header{
+    width: 100%;
+    height:10%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navigate{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+#buttons{
+    width:120px;
+    height:40px;
+    border: none;
+    border-radius: 20px;
+}
+#content{
+    width: 100%;
+    height:40%;
+    display: flex;
+    background-color: #ffffff;
+}
+#conten-div{
+    height:80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+#getbutton{
+    width:220px;
+    height:60px;
+    border: none;
+    border-radius:30px;
+    background-color:#2BD0D0 ;
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: 120%;
+    height: 100%;
+    margin-left: 200px;
+}
+#feed{
+    width: 100%;
+    height:auto;
+    background-color: #F2F2F2;
+    display: flex;
+}
+#tempDiv{
+    height:auto;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#generatingDiv{
+    width:70%;
+    height:120px;
+    background-color: #3A3054;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:-60px;
+    background-image: url('box2.svg');
+}
+
+#generating{
+    width:70%;
+    height:20%;
+    background-color: #3A3054;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-image: url('box2.svg');
+}
+input{
+    width:100%;
+    height:50px;
+    border: none;
+    border-radius: 10px;
+    padding:0px 10px 0px 10px;
+    color:#8b8b8b;
+ 
+}
+#url{
+    margin-top:34px;
+}
+input:focus{
+    outline: none;
+}
+#dis{
+    margin-top:10px;
+    color:red;
+}
+#shoot{
+    width:15%;
+    height:45%;
+    border: none;
+    border-radius: 10px;
+    background-color: #2BD0D0;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#bottom{
+    width:70%;
+    height:300px;
+    text-align: center;
+}
+#display{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:  column-reverse;
+
+}
+
+#urlDisplay{
+    width: 70%;
+    height:80px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#link{
+    color:#2BD0D0;
+}
+#copyButton{
+    width:120px;
+    height:40px;
+    border: none;
+    background-color: #2BD0D0;
+    border-radius:10px ;
+    color:#FFFFFF;
+    font-size:25px;
+}
+#copyBox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+#copylink{
+    pointer-events: none;
+    font-size:24px;
+   
+   
+}
+#copylink:focus{
+    outline: none;
+}
+#boxes{
+    width:100%;
+    height:450px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#smallBox{
+    width:30%;
+    height:70%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+#hrLine{
+    width:100px;
+    height:10px;
+    background-color: #2BD0D0;
+}
+
+#icon{
+    width:100px;
+    height:100px;
+    background-color: #3A3054;
+    border-radius: 50%;
+    margin-top:-40px;
+}
+
+#bottomDiv{
+    background-color: #3A3054;
+    width:104vw;
+    height:200px;
+    margin-left:-28%;
+    margin-top:100px;
+    background-image: url('box.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
